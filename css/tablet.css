@@ -1,0 +1,29 @@
+.main__tables-container{
+    display: flex;
+    width: 930px;
+}
+.tables-container__currency-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tables-container__commission-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-cards__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 930px;
+    gap: 40px;
+    justify-content: center;
+}
+.product-cards__container .product-detail__card{
+    width: 40%;
+}
+.plans__container-slider{
+    justify-content: center;
+}
